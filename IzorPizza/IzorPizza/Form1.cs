@@ -205,6 +205,17 @@ namespace IzorPizza
         private void button2_Click(object sender, EventArgs e)
         {
             thanks.Text = "Order Submitted - Thanks";
+
+            label2.Text = pizza1.getDesc();
+
+            double total = pizza1.cost();
+            total2 = System.Convert.ToString(total);
+
+            label3.Text = "$" + total2;
+
+            System.IO.File.WriteAllText(@"C:\HomeRepo\IzorPizza\IzorPizza\OrderReceipt.txt", label2.Text + label3.Text);
+         
+
         }
 
         //########################################################################### //Gui Junk
@@ -230,6 +241,11 @@ namespace IzorPizza
         }
 
         private void groupBox5_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }

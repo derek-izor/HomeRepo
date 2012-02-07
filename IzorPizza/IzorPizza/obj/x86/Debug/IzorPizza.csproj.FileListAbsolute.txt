@@ -16,3 +16,12 @@ C:\Users\Pizor\Desktop\IzorPizza\IzorPizza\obj\x86\Debug\IzorPizza.Form1.resourc
 C:\Users\Pizor\Desktop\IzorPizza\IzorPizza\obj\x86\Debug\IzorPizza.Properties.Resources.resources
 C:\Users\Pizor\Desktop\IzorPizza\IzorPizza\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Pizor\Desktop\IzorPizza\IzorPizza\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\HomeRepo\IzorPizza\IzorPizza\obj\x86\Debug\IzorPizza.exe
+C:\HomeRepo\IzorPizza\IzorPizza\obj\x86\Debug\IzorPizza.pdb
+C:\HomeRepo\IzorPizza\IzorPizza\bin\Debug\IzorPizza.exe
+C:\HomeRepo\IzorPizza\IzorPizza\bin\Debug\IzorPizza.pdb
+C:\HomeRepo\IzorPizza\IzorPizza\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\HomeRepo\IzorPizza\IzorPizza\obj\x86\Debug\IzorPizza.Form1.resources
+C:\HomeRepo\IzorPizza\IzorPizza\obj\x86\Debug\IzorPizza.Properties.Resources.resources
+C:\HomeRepo\IzorPizza\IzorPizza\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\HomeRepo\IzorPizza\IzorPizza\obj\x86\Debug\GenerateResource.write.1.tlog

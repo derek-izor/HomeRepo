@@ -49,8 +49,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.thanks = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -296,6 +296,14 @@
             this.groupBox5.Text = "Current Order";
             this.groupBox5.Enter += new System.EventHandler(this.groupBox5_Enter);
             // 
+            // thanks
+            // 
+            this.thanks.AutoSize = true;
+            this.thanks.Location = new System.Drawing.Point(235, 79);
+            this.thanks.Name = "thanks";
+            this.thanks.Size = new System.Drawing.Size(0, 13);
+            this.thanks.TabIndex = 15;
+            // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(266, 299);
@@ -305,14 +313,6 @@
             this.button2.Text = "Submit Order";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // thanks
-            // 
-            this.thanks.AutoSize = true;
-            this.thanks.Location = new System.Drawing.Point(235, 79);
-            this.thanks.Name = "thanks";
-            this.thanks.Size = new System.Drawing.Size(0, 13);
-            this.thanks.TabIndex = 15;
             // 
             // Form1
             // 
@@ -328,6 +328,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Pizza";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
